@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fonts</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonts</title>
+  <style>
+    @font-face {
+      font-family: newfont;
+      src: url(CedarvilleCursive-Regular.ttf);
+    }
+
+    h1 {
+      font-size: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-style: italic;
+      font-variant: small-caps;
+      text-align: center;
+      padding-top: 250px;
+      color: blue;
+    }
+
+    h2 {
+      text-align: center;
+      text-decoration-line: underline;
+      text-indent: 67px;
+      text-decoration-thickness: 3px;
+      color: aquamarine;
+    }
+
+    .demo {
+      font-family: newfont;
+    }
+  </style>
 </head>
-<style>
-    h1{
-        font-size: 20px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: bold;
-        font-style: italic;
-         font-variant: small-caps;
-        text-align: center; 
-        padding-top: 250px;
-        color: blue;
-    }
-    h2{
-        text-align: center;
-        text-decoration-line: underline;
-        text-indent: 67px;
-        text-wrap: wrap;
-        text-decoration-thickness: 3px;
-        color: aquamarine;
-    }
-</style>
 <body>
-    <h1>Ankit Parida</h1>
-    <h2>2410991139</h2>
+  <h1>Ankit Parida</h1>
+  <h2>2410991139</h2>
+  <h3 class="demo">My name is ankit parida</h3>
 </body>
 </html>
