@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <style>
+      .box{
+                height:350px;
+                width:350px;
+            }
+            .box1{
+                background-color: red;
+            }
+            .box2{
+                background-color: rgb(0, 55, 255);
+            }
+            .box3{
+                background-color: rgb(255, 0, 217);
+            }
+        @media (max-width:1250px) and (orientation: portrait){
+            .container{
+                display: flex;
+                justify-content: space-around;
+                gap:45px;
+
+            }
+            .box{
+                height:150px;
+                width:150px;
+            }
+            .box1{
+                background-color: red;
+            }
+            .box2{
+                background-color: rgb(0, 55, 255);
+            }
+            .box3{
+                background-color: rgb(255, 0, 217);
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+</body>
+</html>
