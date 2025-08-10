@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+       .container {
+    display: grid;
+    background-color: aqua;
+    height: 750px;
+    width: 500px;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);   
+    gap: 45px; 
+    column-gap: 0;
+    row-gap: 0;
+    justify-items: center; 
+    align-items: center;   
+     border:2px solid black;
+}
+
+        .class{
+            height:150px;
+            width:150px;
+            border:2px solid black;
+        }
+        .class1{
+            background-color: red;
+        }
+        .class2{
+            background-color: rgb(0, 13, 255);
+        }
+        .class3{
+            background-color: rgb(255, 0, 225);
+        }
+        .class4{
+            background-color: rgb(0, 238, 255);
+        }
+        .class5{
+            background-color: rgb(106, 0, 255);
+        }
+        .class6{
+            background-color: rgb(0, 255, 94);
+        }
+        .class7{
+            background-color: rgba(82, 16, 16, 0.507);
+        }
+        .class8{
+            background-color: rgb(16, 72, 85);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="class class1">1</div>
+        <div class="class class2">2</div>
+        <div class="class class3">3</div>
+        <div class="class class4">4</div>
+        <div class="class class5">5</div>
+        <div class="class class6">6</div>
+        <div class="class class7">7</div>
+        <div class="class class8">8</div>
+    </div>
+</body>
+</html>

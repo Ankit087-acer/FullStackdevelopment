@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box{
+            width:150px;
+            height:150px;
+            background-color: aqua;
+            animation-name: anim1;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-duration: 4s;
+        }
+        @keyframes anim1{
+             0%   { transform: translate(0, 0); }        
+    25%  { transform: translate(880px, 0); 
+    background-color: blue;}      
+    50%  { transform: translate(880px, 580px);
+    background-color: brown; }  
+    75%  { transform: translate(0, 580px);
+    background-color: cadetblue; }      
+    100% { transform: translate(0, 0);
+    background-color: cyan; }         
+        }
+
+    </style>
+</head>
+<body>
+   <div class="box"></div> 
+</body>
+</html>
