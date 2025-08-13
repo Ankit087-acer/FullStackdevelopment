@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        .selectmore::first-letter{
+            color:red;
+        }
+        .selectmore::first-line{
+            background-color: aqua;
+        }
+        .selectmore:first-child{
+            background-color: black;
+        }
+        .less h1::after{
+            content: "🫤";
+        }
+        .less h1::before{
+            content: "My name is ";
+        }
+    </style>
+</head>
+<body>
+    <div class="selectmore">
+        <h1>Apple</h1>
+        <h1>Grapes</h1>
+        <h1>Mango</h1>
+    </div>
+    <div class="less">
+        <h1>Rohit</h1>
+        <h1>Virat</h1>
+        <h1>Hardik</h1>
+    </div>
+</body>
+</html>
