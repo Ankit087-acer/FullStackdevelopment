@@ -1,11 +1,11 @@
 {
-  "name": "a",
+  "name": "fullstackdevlopment",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "First": "node hi.js"
+    "Start": "node math.js"
   },
   "author": "",
   "license": "ISC"
